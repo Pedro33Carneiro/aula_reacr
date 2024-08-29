@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-top: 2px solid red;
+    padding-block: 0.5rem;
+    width: 100%;
+    height: 100%;
+    font-family: Poppins, serif;
+}
+
+.footer h2{
+    font-size: 1rem;
+    font-weight: 500;
+    color: whitesmoke;
+    position: relative;
+    top: 0;
+}
+
