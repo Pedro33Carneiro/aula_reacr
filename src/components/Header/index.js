@@ -3,15 +3,14 @@ import styles from "./Header.module.css";
 
 function Header(){
     return(
-        <header className={styles.header} >
+        <header className={styles.header}>
             <Link to="/">
-                <span>PedrãoFlix</span> 
+                <span>ETECFLIX</span>
             </Link>
-            
             <nav>
-                <Link to="/">Início</Link>
-                <Link to="/Watch">Assistir</Link>
+                <Link to="/">Home</Link>
                 <Link to="/search">Pesquisar</Link>
+                <Link to="/favorites">Favoritos</Link>
             </nav>
         </header>
     );

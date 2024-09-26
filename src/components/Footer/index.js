@@ -1,9 +1,9 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
 
 function Footer(){
     return(
         <footer className={styles.footer}>
-            Dsenvolvido por Pedro Carneiro &reg; 2024
+            <h2>Desenvolvido por Pedro Carneiro &reg; 2024</h2>
         </footer>
     );
 }
